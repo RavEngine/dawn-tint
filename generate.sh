@@ -14,3 +14,7 @@ cd ..
 # remove git folders
 find . -name .git -type d -exec rm -rf {} \;
 find . -name .git -exec rm {} \;
+
+# need to do it twice for some reason
+find . -name .git -type d -exec rm -rf {} \;
+find . -name .git -exec rm {} \;
