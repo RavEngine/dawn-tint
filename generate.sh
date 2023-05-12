@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # get depot toosl
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git --depth=1
 export PATH=`pwd`/depot_tools:$PATH
