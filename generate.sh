@@ -9,6 +9,9 @@ git clone https://dawn.googlesource.com/tint --depth=1
 cd tint
 cp standalone.gclient .gclient
 gclient sync
+
+# delete everything we don't need
+rm -rf build third_party/catapult third_party/llvm-build
 cd ..
 
 # remove git folders
