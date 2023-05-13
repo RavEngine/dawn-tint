@@ -11,7 +11,7 @@ cp standalone.gclient .gclient
 gclient sync
 
 # delete everything we don't need
-rm -rf build third_party buildtools tools testing testing scripts kokoro infra
+rm -rf build third_party buildtools tools testing testing scripts kokoro infra .vscode .cipd build_overrides .clang-format .gclient*  
 cd ..
 
 # remove git folders
