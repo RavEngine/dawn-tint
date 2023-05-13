@@ -11,7 +11,7 @@ cp standalone.gclient .gclient
 gclient sync
 
 # delete everything we don't need
-rm -rf build third_party/catapult third_party/llvm-build
+rm -rf build third_party/catapult third_party/llvm-build buildtools tools testing third_party/vulkan_deps third_party/protobuf third_party/ninja third_party/googletest third_party/gn third_party/benchmark third_party/abseil-cpp testing scripts kokoro infra
 cd ..
 
 # remove git folders
